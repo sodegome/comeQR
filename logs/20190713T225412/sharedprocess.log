@@ -1,0 +1,81 @@
+[2019-07-13 22:54:22.015] [sharedprocess] [info] main {"machineId":"af96e16a8f23f6df48530bb5b079f02b8d1be564426cb2614cff1e91ef0c573f"}
+[2019-07-13 22:54:22.824] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:24.793] [sharedprocess] [info] Deleted from disk ms-vscode.cpptools-0.19.0
+[2019-07-13 22:54:24.844] [sharedprocess] [info] Scanned system extensions: 70
+[2019-07-13 22:54:41.482] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:41.569] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:41.662] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:42.694] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:44.219] [sharedprocess] [info] Scanned system extensions: 70
+[2019-07-13 22:54:44.253] [sharedprocess] [info] Scanned system extensions: 70
+[2019-07-13 22:54:45.534] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:49.579] [sharedprocess] [info] Installing extension: laravel5-snippets
+[2019-07-13 22:54:49.779] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:51.362] [sharedprocess] [info] Downloaded extension: laravel5-snippets
+[2019-07-13 22:54:53.579] [sharedprocess] [info] Extracted extension to /home/jorgepinargote/.vscode/extensions/.onecentlin.laravel5-snippets-1.7.0: onecentlin.laravel5-snippets-1.7.0
+[2019-07-13 22:54:53.579] [sharedprocess] [info] Renamed to /home/jorgepinargote/.vscode/extensions/onecentlin.laravel5-snippets-1.7.0
+[2019-07-13 22:54:53.579] [sharedprocess] [info] Installation completed. onecentlin.laravel5-snippets-1.7.0
+[2019-07-13 22:54:53.647] [sharedprocess] [info] Extensions installed successfully: onecentlin.laravel5-snippets
+[2019-07-13 22:54:56.132] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 22:54:57.399] [sharedprocess] [info] Scanned system extensions: 70
+[2019-07-13 22:55:02.143] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-13 22:59:46.624] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:04:46.694] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:09:46.756] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:14:46.775] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:19:46.818] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:24:46.872] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:29:46.909] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:34:46.949] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:39:47.002] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:44:47.048] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:49:47.079] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:54:47.745] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-13 23:59:47.785] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:04:47.847] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:09:47.870] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:14:47.887] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:19:47.908] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:24:47.944] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:29:47.966] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:34:47.990] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:39:48.019] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:44:48.034] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:49:48.050] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:54:48.460] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 00:59:48.477] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:04:48.492] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:09:48.511] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:14:48.529] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:19:48.867] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:24:48.944] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:29:48.968] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:34:48.985] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:39:49.028] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:44:49.074] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:49:49.155] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:54:49.603] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 01:59:49.628] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:04:49.647] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:09:49.666] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:14:49.683] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:19:49.697] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:24:49.715] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:29:49.737] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:34:49.760] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:39:49.774] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:44:49.806] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:49:49.824] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:54:50.260] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 02:59:50.276] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:04:50.392] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:09:50.413] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:14:50.429] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:19:50.447] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:24:50.466] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:29:50.495] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:34:50.594] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:39:50.621] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:45:05.460] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:50:05.474] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-14 03:55:05.912] [sharedprocess] [info] Scanned user extensions: 2

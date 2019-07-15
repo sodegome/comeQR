@@ -13,6 +13,40 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});*/
+
+
+Route::post('user/register', 'APIRegisterController@register');
+Route::post('user/login', 'APILoginController@login');
+
+
+
+
+
+
+Route::group(['middleware' => 'jwt.verify'], function(){
+    
+    Route::post('user/logout', 'APILoginController@logout');
+
+    Route::get('user', function(Request $request) {
+
+        try{
+            $user = auth()->guard('api')->user();
+        }catch(Exception $e){
+            return response()->json(['error'=>'error de seguridad'],500);
+        }
+        return $user ;
+    
+    });
+
+
+
 });
+
+
+//Casas
+Route::get('/casa/{casa}','CasaController@show');
+
+

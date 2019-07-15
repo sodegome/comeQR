@@ -1,0 +1,302 @@
+Buscando git en: git
+Usando GIT 2.7.4 desde git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/html/comeQR
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git check-ignore -z --stdin
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :.env.example
+> git check-ignore -z --stdin
+> git show :.env
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/welcome.blade.php
+> git check-ignore -z --stdin
+> git show :server.php
+> git show :.env
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :config/database.php
+> git show :.env
+> git show :resources/views/welcome.blade.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2019_07_14_063552_create_rols_table.php
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063658_create_casas_table.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2013_07_14_063658_create_casas_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :.env

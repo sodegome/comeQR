@@ -1,0 +1,254 @@
+Buscando git en: git
+Usando GIT 2.7.4 desde git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/html/comeQR
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :.env
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :database/migrations/2013_07_14_063658_create_casas_table.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git show :database/migrations/2013_07_14_063658_create_casas_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :app/User.php
+> git show :app/Rol.php
+> git show :app/Invitation.php
+> git show :app/User.php
+> git show :app/Rol.php
+> git show :app/Casa.php
+> git show :app/Rol.php
+> git show :app/Casa.php
+> git show :app/Rol.php
+> git show :app/User.php
+> git show :app/Invitation.php
+> git show :app/Casa.php
+> git show :app/User.php
+> git show :app/Rol.php
+> git show :app/Casa.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Rol.php
+> git show :app/Invitado.php
+> git show :app/User.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Rol.php
+> git show :app/User.php
+> git show :app/Invitation.php
+> git show :app/Invitado.php
+> git show :app/User.php
+> git show :app/Rol.php
+> git show :app/Invitado.php
+> git show :app/Rol.php
+> git show :app/User.php
+> git show :app/Invitation.php
+> git show :app/Casa.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Casa.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Rol.php
+> git show :app/User.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/CasaController.php
+> git check-ignore -z --stdin
+> git show :routes/api.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/api.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :routes/api.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :routes/api.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/api.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/Auth/ForgotPasswordController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/Controller.php
+> git show :app/Http/Controllers/InvitadoController.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/User.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/User.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/RolController.php
+> git show :app/Http/Controllers/UserController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :config/app.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :composer.json
+> git show :config/app.php
+> git show :app/Http/Controllers/UserController.php
+> git show :config/app.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :config/app.php
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git show :config/app.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :config/app.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :config/app.php
+> git show :resources/views/welcome.blade.php
+> git check-ignore -z --stdin
+> git show :config/app.php
+> git show :.env
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :vendor/tymon/jwt-auth/config/config.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :vendor/tymon/jwt-auth/src/Contracts/JWTSubject.php
+> git show :.env
+> git check-ignore -z --stdin
+> git show :config/app.php
+> git show :routes/api.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git check-ignore -z --stdin
+> git show :vendor/tymon/jwt-auth/src/JWTAuth.php
+> git check-ignore -z --stdin
+> git show :vendor/tymon/jwt-auth/src/Contracts/Http/Parser.php
+> git check-ignore -z --stdin
+> git show :vendor/tymon/jwt-auth/src/Contracts/Providers/Auth.php
+> git show :vendor/tymon/jwt-auth/src/Contracts/Providers/JWT.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git check-ignore -z --stdin
+> git show :CachedExtensions/user
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/User.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/VerificationController.php
+> git show :app/Http/Controllers/Auth/ResetPasswordController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :app/User.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/User.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Kernel.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :config/auth.php
+> git show :routes/api.php
+> git show :config/app.php
+> git show :config/jwt.php
+> git show :config/app.php
+> git show :config/auth.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :app/Http/Middleware/JwtMiddleware.php
+> git show :app/Http/Kernel.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :config/app.php
+> git show :routes/api.php
+> git show :config/app.php
+> git show :config/auth.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :app/Http/Middleware/JwtMiddleware.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/User.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/User.php
+> git show :config/auth.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :config/app.php
+> git show :app/Http/Middleware/JwtMiddleware.php
+> git show :config/auth.php
+> git show :app/Http/Middleware/JwtMiddleware.php
+> git show :config/app.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Kernel.php
+> git show :routes/api.php
+> git show :app/User.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :app/User.php
+> git show :app/Http/Controllers/APILoginController.php
