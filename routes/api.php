@@ -22,13 +22,9 @@ Route::post('user/register', 'APIRegisterController@register');
 Route::post('user/login', 'APILoginController@login');
 
 
-
-
-
-
 Route::group(['middleware' => 'jwt.verify'], function(){
     
-    Route::post('user/logout', 'APILoginController@logout');
+    
 
     Route::get('user', function(Request $request) {
 
@@ -40,6 +36,11 @@ Route::group(['middleware' => 'jwt.verify'], function(){
         return $user ;
     
     });
+
+    Route::get('invitados', 'InvitadoController@index');
+    Route::post('nuevoinvitado', 'InvitadoController@store');
+
+
 
 
 

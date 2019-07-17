@@ -252,3 +252,6 @@ Open repository: /var/www/html/comeQR
 > git show :routes/api.php
 > git show :app/User.php
 > git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :.env
+> git show :routes/api.php
