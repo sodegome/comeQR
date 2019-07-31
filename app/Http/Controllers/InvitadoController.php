@@ -16,7 +16,6 @@ class InvitadoController extends Controller
      */
     public function index()
     {
-
        $user = auth()->guard('api')->user();
        $invitados = $user->invitados;
        return $invitados;
@@ -42,6 +41,8 @@ class InvitadoController extends Controller
     {
         $user = Auth()->guard('api')->user();
         $input = request()->all();
+
+
         $request->validate([
             'name'=> 'required|string',
             'last_name' => 'required|string',
@@ -60,9 +61,7 @@ class InvitadoController extends Controller
                                   'state' => "A",
                                   'user_id' => $user->id
                                 ]);
-
- 
-        
+  
         $invitado->save();                        //$user->save($invitado);   
             
         return $invitado->toJson();

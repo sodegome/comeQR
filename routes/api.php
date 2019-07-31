@@ -21,24 +21,32 @@ use Illuminate\Http\Request;
 Route::post('user/register', 'APIRegisterController@register');
 Route::post('user/login', 'APILoginController@login');
 
+Route::post('/validaqr','InvitationController@validarQr');
 
 Route::group(['middleware' => 'jwt.verify'], function(){
     
-    
 
     Route::get('user', function(Request $request) {
-
         try{
             $user = auth()->guard('api')->user();
         }catch(Exception $e){
             return response()->json(['error'=>'error de seguridad'],500);
         }
         return $user ;
-    
     });
 
     Route::get('invitados', 'InvitadoController@index');
     Route::post('nuevoinvitado', 'InvitadoController@store');
+    Route::post('/nuevainvitacion/{invitado}','InvitationController@store');
+
+
+    
+
+
+
+
+    
+
 
 
 

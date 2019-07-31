@@ -82,3 +82,5 @@ Open repository: /var/www/html/comeQR
 > git show :app/Http/Controllers/InvitadoController.php
 > git show :app/Invitado.php
 > git show :app/Http/Controllers/InvitadoController.php
+> git show :routes/api.php
+> git show :app/Invitado.php
