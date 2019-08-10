@@ -82,4 +82,16 @@ class FrecuenciaController extends Controller
     {
         //
     }
+
+
+   
+
+
+
+
+
+
+
+
+
 }

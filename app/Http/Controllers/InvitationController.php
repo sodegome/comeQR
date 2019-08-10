@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Invitado;
 use App\Invitation;
+use App\Frecuencia;
 use Illuminate\Http\Request;
 
 class InvitationController extends Controller
@@ -121,36 +122,52 @@ class InvitationController extends Controller
 
 
     public function validarQr(Request $request){
+
         $input = request()->all();
         
         $request->validate([
                 'SERIAL'=> 'required|string',
         ]);
 
-        $datenow = date('Y-m-d');
-        $horanow = date('H:i');
+        $datenow = date('Y-m-d H:i');
 
-        $invitacion = Invitation::where('serialQR','=',$input['SERIAL'])
-                                ->where('state','=','AC')
+        
+        $invitacion = Invitation::where('serial','=',$input['SERIAL'])
+                                ->where('state','=','A')
                                 ->where('fecha_desde','<=',$datenow)
-                                ->where('fecha_hasta','>=',$datenow)
-                                ->whereTime('hora_desde','<=',$horanow)
-                                ->whereTime('hora_hasta','>=',$horanow)->first();
+                                ->where('fecha_hasta','>=',$datenow)->first();
 
-
-        if($invitacion==null){
-            return response()->json(['response'=>'-1', 
-                                     'fecha_sys' => $datenow , 
-                                     'hora_sys' => $horanow ],400);
-        }else{
-
-            $invitacion->state = 'IN';
-            $invitacion->save();
+        if($invitacion != null){
             
-            return response()->json(['response'=>'1', 
-                                    'fecha_sys' => $datenow, 
-                                    'hora_sys' => $horanow ],200);
+            $frecuencia = $invitacion->frecuencia;
+            if($frecuencia != null){ 
+                if($frecuencia->checkTime()){
+                    return response()->json(['response'=>'1', 
+                                    'Message' => 'frecuente',
+                                    'fecha_sys' => $datenow],200);
+
+                }else{
+                    return response()->json(['response'=>'-1', 
+                                    'Message' => 'frecuente, fuera de tiempo',
+                                    'fecha_sys' => $datenow ],200);
+
+                }
+            }else{
+                $invitacion->state = 'I';
+                $invitacion->save();
+            
+                return response()->json(['response'=>'1', 
+                                    'Message' => 'Esporadico',
+                                    'fecha_sys' => $datenow],200);
+
+            }
+
         }
+        
+        return response()->json(['response'=>'-1', 
+                                 'Message' => 'Invitado fuera del rango fecha, o invitacion inexistente',
+                                 'fecha_sys' => $datenow],200);
+      
 
     }
 
