@@ -42,24 +42,25 @@ class InvitationController extends Controller
         try{
 
             $request->validate([
-                'serialQR'=> 'required|string',
+                'serial' => 'required|string',
                 'placa_vehiculo' => 'nullable|string',
-                'fecha_desde' => 'required|date_format:"Y-m-d"',
-                'fecha_hasta' => 'required|date_format:"Y-m-d"',
-                'hora_desde' => 'required|date_format:"H:i"',
-                'hora_hasta' => 'required|date_format:"H:i"',
-                'state'  => 'in:AC,IC,IN,SA',
+                'fecha_desde' => 'required|date_format:"Y-m-d H:i"',
+                'fecha_hasta' => 'required|date_format:"Y-m-d H:i"',
+                'state'  => 'in:A,I',
+                'frecuencia' => 'sometimes|numeric|nullable'
             ]);
 
             $invitation = new Invitation ([
-                'serialQR'=> $input['serialQR'],
+                'serial'=> $input['serial'],
                 'placa_vehiculo' => $input['placa_vehiculo'],
                 'fecha_desde' => $input['fecha_desde'],
                 'fecha_hasta' => $input['fecha_hasta'],
-                'hora_desde' => $input['hora_desde'],
-                'hora_hasta' => $input['hora_hasta'],
-                'state'  => $input['state']
+                'state'  => $input['state'],
             ]);
+
+            if($request->has('frecuencia')){
+                $invitation->frecuencia_id = $input['frecuencia'];
+            }
 
             $invitado->invitations()->save($invitation);
             
@@ -135,7 +136,6 @@ class InvitationController extends Controller
                                 ->where('fecha_hasta','>=',$datenow)
                                 ->whereTime('hora_desde','<=',$horanow)
                                 ->whereTime('hora_hasta','>=',$horanow)->first();
-
 
 
         if($invitacion==null){

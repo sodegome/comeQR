@@ -10,11 +10,19 @@ class Invitation extends Model
 {
 
     protected $fillable = [
-                'serialQR','placa_vehiculo', 'fecha_desde', 'fecha_hasta','hora_desde','hora_hasta', 'state','invitado_id','fecha_ingreso'
+                'serial','placa_vehiculo', 'fecha_desde', 'fecha_hasta', 'state','invitado_id','frecuencia_id'
     ];
   
     public function invitado(){
         return $this->belongsTo('App\Invitado');
+    }
+
+    public function ingresos(){
+        return $this->hasMany('App\Ingreso');
+    }
+
+    public function frecuencia(){
+        return $this->belongsTo('App\Frecuencia');
     }
     
 }

@@ -17,10 +17,12 @@ class APILoginController extends Controller
             'username' => 'required|string|max:255',
             'password'=> 'required'
         ]);
+        
         if ($validator->fails()) {
             return response()->json($validator->errors());
         }
         $credentials = $request->only('username', 'password');
+
         try {
             if (! $token = Auth::guard('api')->attempt($credentials)) {
                 return response()->json(['error' => 'invalid_credentials'], 401);

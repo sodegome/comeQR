@@ -6,6 +6,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
+use Illuminate\Support\Facades\Hash;
 
 class User extends Authenticatable implements JWTSubject
 {
@@ -25,6 +26,7 @@ class User extends Authenticatable implements JWTSubject
      *
      * @var array
      */
+    
     protected $hidden = [
         'password', 'remember_token',
     ];
@@ -51,6 +53,10 @@ class User extends Authenticatable implements JWTSubject
         return $this->hasMany('App\Invitado');
     }
 
+ 
+
+
+
 
    // JWT
 
@@ -64,10 +70,11 @@ class User extends Authenticatable implements JWTSubject
         return [];
     }    
     
+
     public function setPasswordAttribute($password)
     {
         if ( !empty($password) ) {
-            $this->attributes['password'] = Hash::make($password);
+            $this->attributes['password'] = Hash::needsRehash($password) ? Hash::make($password) : $password;
     }
 
   }

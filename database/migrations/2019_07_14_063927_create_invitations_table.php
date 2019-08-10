@@ -15,17 +15,20 @@ class CreateInvitationsTable extends Migration
     {
         Schema::create('invitations', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('serialQR', 20);
-            $table->string('link_imgQR',255);
+            $table->string('serial', 20);
             $table->integer('invitado_id')->unsigned();
             $table->string('placa_vehiculo',10)->nullable();
-            $table->date('fecha_desde');
-            $table->date('fecha_hasta');
-            $table->time('hora_desde');
-            $table->time('hora_hasta');
-            $table->enum('state', array('AC','IC','IN','SA'));
-            $table->date('fecha_ingreso')->nullable();
+            $table->dateTime('fecha_desde');
+            $table->dateTime('fecha_hasta');
+            $table->enum('state', array('A','I'));
+            $table->integer('frecuencia_id')->unsigned()->unique()->nullable();
             $table->timestamps();
+
+            //relaciones
+            $table->foreign('frecuencia_id')
+            ->references('id')->on('frecuencias')
+            ->onDelete('cascade')
+            ->onUpdate('cascade');
 
             //relaciones
             $table->foreign('invitado_id')

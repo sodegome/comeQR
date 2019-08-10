@@ -109,3 +109,56 @@ Open repository: /var/www/html/comeQR
 > git show :app/Http/Controllers/InvitadoController.php
 > git show :app/Http/Controllers/InvitationController.php
 > git show :app/Invitation.php
+> git check-ignore -z --stdin
+> git show :routes/web.php
+> git show :app/Http/Controllers/APIRegisterController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/ForgotPasswordController.php
+> git show :app/Http/Controllers/Auth/ResetPasswordController.php
+> git show :app/Http/Controllers/Auth/VerificationController.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/ForgotPasswordController.php
+> git show :app/Http/Controllers/Auth/VerificationController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/welcome.blade.php
+> git show :routes/web.php
+> git show :resources/views/welcome.blade.php
+> git show :routes/web.php
+> git show :resources/views/welcome.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/auth/verify.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :config/app.php
+> git show :.env
+> git show :config/app.php
+> git show :app/Http/Controllers/InvitadoController.php
+> git show :config/app.php
+> git show :resources/views/welcome.blade.php
+> git show :routes/api.php
+> git show :resources/views/welcome.blade.php
+> git show :app/Rol.php
+> git show :resources/views/welcome.blade.php
+> git show :config/app.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :app/Http/Controllers/InvitationController.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :app/Casa.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/home.blade.php

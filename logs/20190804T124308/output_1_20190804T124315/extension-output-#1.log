@@ -1,0 +1,154 @@
+Buscando git en: git
+Usando GIT 2.7.4 desde git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/html/comeQR
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_07_14_063839_create_frecuencias_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git check-ignore -z --stdin
+> git show :app/Frecuencia.php
+> git show :app/Casa.php
+> git show :app/Frecuencia.php
+> git show :app/User.php
+> git show :app/Frecuencia.php
+> git show :app/Invitado.php
+> git show :app/Frecuencia.php
+> git show :database/factories/UserFactory.php
+> git show :database/migrations/2019_08_03_191730_create_ingresos_table.php
+> git show :database/migrations/2019_07_14_063839_create_frecuencias_table.php
+> git show :app/Frecuencia.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :database/migrations/2019_07_14_063839_create_frecuencias_table.php
+> git show :app/Frecuencia.php
+> git show :database/migrations/2019_08_03_191730_create_ingresos_table.php
+> git check-ignore -z --stdin
+> git show :app/Ingreso.php
+> git show :app/Invitation.php
+> git show :app/Frecuencia.php
+> git show :app/Invitation.php
+> git show :app/Ingreso.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Ingreso.php
+> git show :app/Frecuencia.php
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_08_03_191730_create_ingresos_table.php
+> git show :database/migrations/2019_07_14_063839_create_frecuencias_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git show :database/migrations/2019_07_14_063839_create_frecuencias_table.php
+> git show :database/migrations/2019_07_14_063838_create_invitados_table.php
+> git show :app/Ingreso.php
+> git show :app/Invitado.php
+> git show :app/Invitation.php
+> git show :app/Ingreso.php
+> git show :database/migrations/2019_08_03_191730_create_ingresos_table.php
+> git show :app/Ingreso.php
+> git show :app/Invitado.php
+> git show :app/User.php
+> git show :app/Invitation.php
+> git show :app/Invitado.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/InvitationController.php
+> git show :app/User.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :app/User.php
+> git show :app/Invitation.php
+> git show :app/User.php
+> git show :app/Frecuencia.php
+> git show :app/Invitation.php
+> git show :database/migrations/2019_08_03_191730_create_ingresos_table.php
+> git show :database/migrations/2019_07_14_063927_create_invitations_table.php
+> git show :app/Invitation.php
+> git show :app/User.php
+> git show :app/Http/Controllers/InvitationController.php
+> git show :app/Invitation.php
+> git show :app/Invitado.php
+> git show :app/Http/Controllers/InvitationController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :.env
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/UserController.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/User.php
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2013_07_14_063552_create_rols_table.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :app/Http/Controllers/APILoginController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :database/migrations/2014_10_12_000000_create_users_table.php
+> git show :database/migrations/2014_10_12_100000_create_password_resets_table.php
+> git check-ignore -z --stdin
+> git show :config/app.php
+> git show :config/auth.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/VerificationController.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git check-ignore -z --stdin
+> git show :app/User.php
+> git check-ignore -z --stdin
+> git show :routes/api.php
+> git show :routes/web.php
+> git show :resources/views/welcome.blade.php
+> git check-ignore -z --stdin
+> git show :app/User.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git show :app/Http/Controllers/APILoginController.php
+> git show :routes/api.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/InvitationController.php
+> git show :app/Invitation.php
+> git show :app/Http/Controllers/InvitationController.php
