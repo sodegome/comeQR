@@ -111,4 +111,13 @@ class InvitadoController extends Controller
     {
         //
     }
+
+
+    public function invitacionesById(Invitado $invitado)
+    {
+        return response()->json(['invitaciones'=> $invitado->invitations],200);
+        
+    }
+
+
 }

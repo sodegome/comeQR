@@ -36,10 +36,12 @@ Route::group(['middleware' => 'jwt.verify'], function(){
         return $user ;
     });
 
-    Route::get('invitados', 'InvitadoController@index');
     Route::post('nuevoinvitado', 'InvitadoController@store');
+    Route::get('invitados', 'InvitadoController@index');
+    Route::get('invitaciones/{invitado}', 'InvitadoController@invitacionesById');
 
     Route::post('/nuevainvitacion/{invitado}','InvitationController@store');
+    Route::post('/frecuencia','FrecuenciaController@store');
 
 
     
