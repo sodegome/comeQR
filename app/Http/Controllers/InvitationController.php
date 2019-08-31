@@ -16,7 +16,8 @@ class InvitationController extends Controller
      */
     public function index()
     {
-        //
+        $invitations = Invitation::all();
+        return view('reportes.invindex');   
     }
 
     /**
@@ -83,7 +84,7 @@ class InvitationController extends Controller
      */
     public function show(Invitation $invitation)
     {
-        //
+        return view('reportes.invitationshow', compact('invitation'));
     }
 
     /**
@@ -169,6 +170,56 @@ class InvitationController extends Controller
                                  'fecha_sys' => $datenow],200);
       
 
+    }
+
+
+    /*Metodos exclusivos para reportes*/
+    public function invitacionPorFecha(Request $request){
+        $request->validate([
+            'from_date'=> 'required','to_date'=> 'required'
+        ]);
+
+        $input = request()->all();
+
+        $invitations = Invitation::where('fecha_desde','>=',$input['from_date'])
+                                 ->where('fecha_hasta','<=',$input['to_date'])
+                                 ->where('state','A');
+
+        $invitations = Invitation::where('created_at','!=','updated_at')
+                                 ->where('updated_at','<=',$request->to_date)
+                                 ->where('updated_at','>=',$request->from_date)
+                                 ->where('state','I');                     
+
+        response()->json(['response' => $invitations ],200);
+
+    }
+
+
+    function fetch_data(Request $request)
+    {
+     if($request->ajax())
+     {
+      if($request->from_date != '' && $request->to_date != '' && $request->select != '')
+      {
+         $invitations = Invitation::where('created_at','!=','updated_at')
+                        ->where('updated_at','<=',$request->to_date)
+                        ->where('updated_at','>=',$request->from_date)
+                        ->where('state',$request->select)->get();
+      }
+      else
+      {
+        $invitations = Invitation::all();
+      }
+      echo json_encode($invitations);
+     }
+    }
+
+
+
+    function inactivar(Invitation $invitation){
+        $invitation->state = 'I';
+        $invitation->save();
+        return view('reportes.invindex');
     }
 
     

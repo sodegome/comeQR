@@ -1,0 +1,271 @@
+Buscando git en: git
+Usando GIT 2.7.4 desde git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/html/comeQR
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/home.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/layouts/app.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/auth/register.blade.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/casacreate.blade.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casacreate.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casaindex.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casaedit.blade.php
+> git check-ignore -z --stdin
+> git show :routes/web.php
+> git show :routes/api.php
+> git show :resources/views/welcome.blade.php
+> git show :routes/web.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/home.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/auth/registerGuardia.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/auth/registerGuardia.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casashow.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casashow.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :resources/views/auth/registerResidente.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casashow.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/auth/registerResidente.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/home.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Invitado.php
+> git show :app/Http/Controllers/InvitadoController.php
+> git show :app/Invitado.php
+> git show :app/Http/Controllers/InvitadoController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Frecuencia.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :app/Casa.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/registerGuardia.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/auth/registerGuardia.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :routes/web.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/web.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :routes/web.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :routes/api.php
+> git show :routes/web.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :routes/api.php
+> git show :routes/channels.php
+> git show :routes/web.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CasaController.php
+> git check-ignore -z --stdin
+> git show :resources/views/casa/casacreate.blade.php
+> git show :app/Casa.php
+> git show :app/Frecuencia.php
+> git show :app/Casa.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/auth/registerResidente.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/auth/register.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casashow.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/home.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casashow.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaedit.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/CasaController.php
+> git show :routes/web.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/casa/casacreate.blade.php
+> git show :resources/views/casa/casashow.blade.php
+> git show :resources/views/casa/casaindex.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/casa/casaindex.blade.php

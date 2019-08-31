@@ -26,6 +26,7 @@ Route::post('validaqr','InvitationController@validarQr');
 Route::group(['middleware' => 'jwt.verify'], function(){
     
     Route::post('user/logout', 'APILoginController@logout');
+    
 
     Route::get('user', function(Request $request) {
         try{
@@ -35,6 +36,7 @@ Route::group(['middleware' => 'jwt.verify'], function(){
         }
         return $user ;
     });
+
 
     Route::post('nuevoinvitado', 'InvitadoController@store');
     Route::get('invitados', 'InvitadoController@index');

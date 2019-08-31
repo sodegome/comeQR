@@ -157,3 +157,52 @@ Open repository: /var/www/html/comeQR
 > git show :app/Invitado.php
 > git show :app/Invitation.php
 > git show :app/Invitado.php
+> git show :app/User.php
+> git check-ignore -z --stdin
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :resources/views/welcome.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/auth/login.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/home.blade.php
+> git show :resources/views/layouts/app.blade.php
+> git show :resources/views/auth/login.blade.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git show :app/Http/Controllers/Auth/LoginController.php

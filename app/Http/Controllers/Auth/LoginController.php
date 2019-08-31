@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+
 
 class LoginController extends Controller
 {
@@ -36,4 +38,38 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+
+
+    protected function attemptLogin(Request $request)
+    {
+        $admin = $this->guard()->attempt(
+            $this->credentials($request,3), $request->filled('remember')
+        );
+
+        $guardia = $this->guard()->attempt(
+            $this->credentials($request,2), $request->filled('remember')
+        );
+
+        return $admin || $guardia;
+    }
+
+    /**
+     * Get the needed authorization credentials from the request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array
+     */
+    protected function credentials(Request $request, $rol)
+    {
+        $credentials = $request->only($this->username(), 'password');
+        $credentials['rol_id'] = $rol;
+        return $credentials;
+    }
+
+
+
+    
+
+
 }

@@ -14,7 +14,9 @@ class CasaController extends Controller
      */
     public function index()
     {
-        //
+        $casas = Casa::paginate(10);
+        return view('casa.casaindex', compact('casas'));
+
     }
 
     /**
@@ -24,7 +26,7 @@ class CasaController extends Controller
      */
     public function create()
     {
-        //
+        return view('casa.casacreate');
     }
 
     /**
@@ -35,7 +37,10 @@ class CasaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, ['manzana'=>'required','villa'=>'required','telefono'=>'required']);
+        Casa::create($request->all());
+        return redirect('casas')->with('success','Registro Almacenado Satisfactoriamente');
+
     }
 
     /**
@@ -57,7 +62,7 @@ class CasaController extends Controller
      */
     public function edit(Casa $casa)
     {
-        //
+        return view('casa.casaedit', compact('casa'));
     }
 
     /**
@@ -69,7 +74,9 @@ class CasaController extends Controller
      */
     public function update(Request $request, Casa $casa)
     {
-        //
+        $this->validate($request, ['manzana'=>'required','villa'=>'required','telefono'=>'required']);
+        $casa->update($request->all());
+        return redirect('casas')->with('success','Registro Actualizado Satisfactoriamente');
     }
 
     /**
@@ -80,6 +87,7 @@ class CasaController extends Controller
      */
     public function destroy(Casa $casa)
     {
-        //
+        $casa->delete();
+        return redirect('casas')->with('success','Registro Eliminado Satisfactoriamente');
     }
 }
