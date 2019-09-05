@@ -1,4 +1,4 @@
-extends('layouts.app')
+@extends('layouts.app')
 @section('content')
 <div class="container-fluid">
     <div class="row justify-content-center">
@@ -22,6 +22,7 @@ extends('layouts.app')
 @endsection
 @section('scripts')
 <script>
+
 var qrcode = new QRCode("qrcode", {
     text: "{{$invitation->serial}}",
     width: 128,
@@ -30,5 +31,6 @@ var qrcode = new QRCode("qrcode", {
     colorLight : "#ffffff",
     correctLevel : QRCode.CorrectLevel.H
 });
+
 </script>
 @endsection

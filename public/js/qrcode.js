@@ -26,6 +26,8 @@ var QRCode;
 	//   http://www.denso-wave.com/qrcode/faqpatent-e.html
 	//
 	//---------------------------------------------------------------------
+
+   
 	function QR8bitByte(data) {
 		this.mode = QRMode.MODE_8BIT_BYTE;
 		this.data = data;
